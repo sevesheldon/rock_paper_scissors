@@ -21,9 +21,9 @@ class String
 
     elsif turn == "paper"
 
-      if opponent_turn == "scissors"
+      if opponent_turn == "rock"
         true
-      elsif opponent_turn == "rock"
+      elsif opponent_turn == "scissors"
         false
       end
 
